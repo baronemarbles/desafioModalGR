@@ -6,6 +6,35 @@
         <title>Desafio ModalGR</title>
         <link rel = "stylesheet" href="./dist/css/index.css">
     </head>
-    <body></body>
+
+    <body>
+        <form method="POST" action="." class="form_container">
+            <!--<label id="label_cep">CEP:-->
+                <input name="nome" type="text" placeholder="Nome" class ="campos" id="input_nome"  maxlength="150" required>
+
+                <input name="cpf" type="text" placeholder="CPF" class ="campos" id="input_cpf" size="10" maxlength="14" required>
+
+                <input name="birthdate" type="date" placeholder="DD/MM/YYYY" class ="campos" id="input_birthdate" required>
+
+                <input name="email" type="email" placeholder="nome@dominio.com" class ="campos" id="input_email" required>
+                
+                
+                <input name="cep" type="text" placeholder="Cep" class ="campos" id="input_cep" size="10" maxlength="9" required>
+
+                    <input name="rua" type="text" placeholder="Rua" class ="campos" id="input_rua" size="60" required>
+
+                    <input name="bairro" type="text" placeholder="Bairro" class ="campos" id="input_bairro" size="40" required>
+
+                    <input name="cidade" type="text" placeholder="Cidade" class ="campos" id="input_cidade" size="40" required>
+
+                    <input name="uf" type="text" placeholder="Estado" class ="campos" id="input_uf" size="2" required>
+
+                    <input name="ibge" type="text" placeholder="IBGE" class ="campos" id="input_ibge" size="8" required>
+
+                    <button id="botao">Registrar</button>
+
+        </form>
+
+    </body>
     <footer></footer>
 </html>
